@@ -30,4 +30,10 @@ $(document).ready(function () {
       sync: true,
     },
   });
+  // Mic button click event
+ 
+  $("#MicBtn").click(function () { 
+    $("#Oval").attr("hidden", true);
+    $("#SiriWave").attr("hidden", false);
+  });
 });
